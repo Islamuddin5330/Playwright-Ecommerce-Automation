@@ -1,0 +1,96 @@
+UserName:  demo@demo.com
+Password:  demo
+ProductName:  Green Shirt
+Result:  Pass
+UserName:  demo@demo.com
+Password:  demo
+ProductName:  Black T-Shirt
+Result:  Pass
+UserName:  demo@demo.com
+Password:  demo
+ProductName:  White Pant
+Result:  Pass
+UserName:  demo@demo.com
+Password:  demo
+ProductName:  Blue Pant
+Result:  Pass
+[
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Green Shirt',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Black T-Shirt',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'White Pant',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Blue Pant',
+    result: 'Pass'
+  }
+]
+Excel Data: [
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Green Shirt',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Black T-Shirt',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'White Pant',
+    result: 'Pass'
+  },
+  {
+    username: 'demo@demo.com',
+    password: 'demo',
+    productName: 'Blue Pant',
+    result: 'Pass'
+  }
+]
+Login successful
+Products from Excel: [ 'Green Shirt', 'Black T-Shirt', 'White Pant', 'Blue Pant' ]
+Searching for: Green Shirt
+Total products found: 1
+Found Product: Green Shirt
+Product added to Cart: Green Shirt
+Excel Updated : Green Shirt => Pass
+Searching for: Black T-Shirt
+Total products found: 1
+Found Product: Black T-Shirt
+Product added to Cart: Black T-Shirt
+Excel Updated : Black T-Shirt => Pass
+Searching for: White Pant
+Total products found: 1
+Found Product: White Pant
+Product added to Cart: White Pant
+Excel Updated : White Pant => Pass
+Searching for: Blue Pant
+Total products found: 1
+Found Product: Blue Pant
+Product added to Cart: Blue Pant
+Excel Updated : Blue Pant => Pass
+Total Selected Products: 4
+Cart Product: Green Shirt
+Cart Product: Black T-Shirt
+Cart Product: White Pant
+Cart Product: Blue Pant
+Total price of Order: $770

@@ -1,0 +1,17 @@
+[
+    {
+        "userName": "demo@demo.com",
+        "password": "demo",
+        "productName": "Green Shirt"
+    },
+    {
+        "userName": "demo@demo.com",
+        "password": "demo",
+        "productName": [
+            "Green Shirt",
+            "Black T-Shirt",
+            "White Pant",
+            "Blue Pant"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "playwright_e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "placeOrder": "npm playwright test tests/placeOrder.spec.js",
+    "qbSearch": "npx playwright test tests/qbSearchProduct.spec.js",
+    "qbSearchExcelData": "npx playwright test tests/qbSearchProductFromExcelData.spec.js",
+    "qbSearchFixtures": "npx playwright test tests/qbSearchProductFromFixtures.spec.js",
+    "qbSearchJson": "npx playwright test tests/qbSearchProductFromJsonData.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "allure-playwright": "^3.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "exceljs": "^4.4.0",
+    "mysql2": "^3.24.5"
+  }
+}

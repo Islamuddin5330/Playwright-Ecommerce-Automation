@@ -1,0 +1,15 @@
+Login successful
+Searching for :  Green Shirt
+Total no of product found are :  1
+Found Product:  Green Shirt
+Product added to the Cart is :  Green Shirt
+Searching for :  Black T-Shirt
+Total no of product found are :  1
+Found Product:  Black T-Shirt
+Product added to the Cart is :  Black T-Shirt
+Total Selected Products are : 2
+Cart Products: Green Shirt
+Product matched:  Green Shirt
+Cart Products: Black T-Shirt
+Product matched:  Black T-Shirt
+Total price of Order are:  $350

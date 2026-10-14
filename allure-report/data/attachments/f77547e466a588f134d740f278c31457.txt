@@ -1,0 +1,4 @@
+Login successful
+Total product:  20
+Checking product: Black T-Shirt
+Checking product: White T-Shirt

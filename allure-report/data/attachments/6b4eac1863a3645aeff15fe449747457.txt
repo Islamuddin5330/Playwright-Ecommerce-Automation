@@ -1,0 +1,9 @@
+Login successful
+Searching for :  Green Shirt
+Total no of product found are :  1
+Found Product:  Green Shirt
+Product added to the Cart is :  Green Shirt
+Total Selected Products are : 1
+Cart Products: Green Shirt
+Product matched:  Green Shirt
+Total price of Order is:  $200

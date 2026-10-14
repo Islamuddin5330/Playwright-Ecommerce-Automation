@@ -1,0 +1,27 @@
+Login successful
+Total product: 20
+Checking product: Black T-Shirt
+Checking product: White T-Shirt
+Product added: White T-Shirt
+Checking product: Green Shirt
+Checking product: Black Short
+Checking product: Blue Pant
+Product added: Blue Pant
+Checking product: Green Pant
+Checking product: Black Pant
+Checking product: White Pant
+Checking product: Red Pant
+Checking product: Black Pant
+Checking product: Black Sport Shoes
+Checking product: Black Flotter
+Checking product: Black Flotter
+Checking product: White Sports Shoes
+Product added: White Sports Shoes
+Checking product: White Sports Shoes
+Product added: White Sports Shoes
+Checking product: Black Sandal
+Product added: Black Sandal
+Checking product: Green Sandal
+Checking product: Blue Sport Shoes
+Checking product: White Sport Shoes
+Checking product: White Canvas Shoes
