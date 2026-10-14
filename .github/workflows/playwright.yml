@@ -47,6 +47,12 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Create database tables
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y mysql-client
+          mysql -h 127.0.0.1 -P 3306 -u root -proot playwright_test_db < database/schema.sql
+
       - name: Run Playwright tests
         run: npx playwright test --workers=1
 
@@ -57,9 +63,3 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
-
-          
-      - name: Create database tables
-        run: |
-          mysql -h 127.0.0.1 -P 3306 -u root -proot playwright_test_db < database/schema.sql
-
