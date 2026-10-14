@@ -1,9 +1,17 @@
 const Exceljs = require("exceljs")
 
+const path = require("path");
 
 async function excelTest() {
     const Workbook = new Exceljs.Workbook();
-    await Workbook.xlsx.readFile("C:/Users/HP/PlayWright_Automation/PlayWright_E-commerce/Utils/getProductDataFromExcel.xlsx");
+    //if we wanted to run from github this below line we need to add
+    const filePath = path.join(
+        __dirname,
+        "getProductDataFromExcel.xlsx"
+    );
+
+    // await Workbook.xlsx.readFile("C:/Users/HP/PlayWright_Automation/PlayWright_E-commerce/Utils/getProductDataFromExcel.xlsx");
+    await Workbook.xlsx.readFile(filePath);
     const sheet = Workbook.getWorksheet("Sheet1");
 
     // sheet.eachRow((row, rowNumber) => {
