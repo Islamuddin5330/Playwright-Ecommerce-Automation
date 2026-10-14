@@ -1,0 +1,27 @@
+Login successful
+Searching for :  Green Shirt
+Total no of product found are :  1
+Found Product:  Green Shirt
+Product added to the Cart is :  Green Shirt
+Searching for :  Black T-Shirt
+Total no of product found are :  1
+Found Product:  Black T-Shirt
+Product added to the Cart is :  Black T-Shirt
+Searching for :  White Pant
+Total no of product found are :  1
+Found Product:  White Pant
+Product added to the Cart is :  White Pant
+Searching for :  Blue Pant
+Total no of product found are :  1
+Found Product:  Blue Pant
+Product added to the Cart is :  Blue Pant
+Total Selected Products are : 4
+Cart Products: Green Shirt
+Product matched:  Green Shirt
+Cart Products: Black T-Shirt
+Product matched:  Black T-Shirt
+Cart Products: White Pant
+Product matched:  White Pant
+Cart Products: Blue Pant
+Product matched:  Blue Pant
+Total price of Order are:  $770

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
 
 const { loginPage } = require("../../pageObject_placeOrder/loginPage");
 const { homePage } = require("../../pageObject_placeOrder/homePage");

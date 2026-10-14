@@ -1,15 +1,17 @@
 import { test, expect } from "@playwright/test";
 
-const {savePlacedOrder} = require("../Utils/orderRepository")
-
-
 test("Add Product to the Carts", async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
 
     const shirtName = ["White T-Shirt", "Blue Pant", "White Sports Shoes", "Black Sandal"];
 
-    await page.goto("https://shop.qaautomationlabs.com/?utm_source=chatgpt.com");
+    // await page.goto("https://shop.qaautomationlabs.com/?utm_source=chatgpt.com");
+
+    await page.goto("https://shop.qaautomationlabs.com/", {
+        waitUntil: "domcontentloaded",
+        timeout: 60000
+    });
 
     //Login to E-commerce
     await page.locator("#email").fill("demo@demo.com");
