@@ -1,10 +1,10 @@
 import { test } from "@playwright/test";
 
-const { loginPage } = require("../../pageObject_placeOrder/loginPage");
-const { homePage } = require("../../pageObject_placeOrder/homePage");
-const { addToCart } = require("../../pageObject_placeOrder/addToCart");
-const { productSummary } = require("../../pageObject_placeOrder/productSummary");
-const { addressPage } = require("../../pageObject_placeOrder/addressPage");
+const { loginPage } = require("../../pageobject_placeOrder/loginPage");
+const { homePage } = require("../../pageobject_placeOrder/homePage");
+const { addToCart } = require("../../pageobject_placeOrder/addToCart");
+const { productSummary } = require("../../pageobject_placeOrder/productSummary");
+const { addressPage } = require("../../pageobject_placeOrder/addressPage");
 
 test("Add Product to the Carts", async ({ browser }) => {
     const context = await browser.newContext();

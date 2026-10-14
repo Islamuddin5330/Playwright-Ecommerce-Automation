@@ -1,6 +1,6 @@
 
 const { test, expect } = require('@playwright/test');
-const db = require('../utils/db');
+const db = require('../Utils/db');
 
 test('Connect to MySQL database', async () => {
     const [rows] = await db.query(
