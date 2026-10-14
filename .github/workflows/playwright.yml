@@ -57,3 +57,9 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+
+          
+      - name: Create database tables
+        run: |
+          mysql -h 127.0.0.1 -P 3306 -u root -proot playwright_test_db < database/schema.sql
+

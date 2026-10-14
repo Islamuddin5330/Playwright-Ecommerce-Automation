@@ -1,11 +1,18 @@
 const Exceljs = require("exceljs");
 const { worker } = require("node:cluster");
 
+const path = require("path");
+
 async function updateExcelResult(productName, result){
 
     
     const Workbook = new Exceljs.Workbook();
-    await Workbook.xlsx.readFile("C:/Users/HP/PlayWright_Automation/PlayWright_E-commerce/Utils/getProductDataFromExcel.xlsx")
+    // Inside updateExcelResult()
+const filePath = path.join(
+    __dirname,
+    "getProductDataFromExcel.xlsx"
+);
+    await Workbook.xlsx.readFile(filePath);
     
     const sheet = Workbook.getWorksheet();
     sheet.eachRow((row, rownumber)=>{
