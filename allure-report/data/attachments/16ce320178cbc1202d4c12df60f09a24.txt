@@ -1,0 +1,40 @@
+Login successful
+Total products: 20
+Checking product: Black T-Shirt
+Checking product: White T-Shirt
+Product added: White T-Shirt
+Checking product: Green Shirt
+Checking product: Black Short
+Checking product: Blue Pant
+Product added: Blue Pant
+Checking product: Green Pant
+Checking product: Black Pant
+Checking product: White Pant
+Checking product: Red Pant
+Checking product: Black Pant
+Checking product: Black Sport Shoes
+Checking product: Black Flotter
+Checking product: Black Flotter
+Checking product: White Sports Shoes
+Product added: White Sports Shoes
+Checking product: White Sports Shoes
+Product added: White Sports Shoes
+Checking product: Black Sandal
+Product added: Black Sandal
+Checking product: Green Sandal
+Checking product: Blue Sport Shoes
+Checking product: White Sport Shoes
+Checking product: White Canvas Shoes
+Products selected: [
+  { productName: 'White T-Shirt', quantity: 1 },
+  { productName: 'Blue Pant', quantity: 1 },
+  { productName: 'White Sports Shoes', quantity: 1 },
+  { productName: 'White Sports Shoes', quantity: 1 },
+  { productName: 'Black Sandal', quantity: 1 }
+]
+Total amount: 2021
+Order placed successfully on website
+Order saved successfully: 005
+Order saved in MySQL: TEST-1791978032286
+Saved items: 5
+Saved order number: TEST-1791978032286

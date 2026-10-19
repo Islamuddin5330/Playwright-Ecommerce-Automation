@@ -51,7 +51,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y mysql-client
-          mysql -h 127.0.0.1 -P 3306 -u root -proot playwright_test_db < database/schema.sql
+          mysql -h 127.0.0.1 -P 3306 -u root -proot playwright_test_db < Utils/database/schema.sql
 
       - name: Run Playwright tests
         run: npx playwright test --workers=1
