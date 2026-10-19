@@ -18,3 +18,4 @@ const db = mysql.createPool({
 });
 
  module.exports = db;
+//  module.exports = pool;
