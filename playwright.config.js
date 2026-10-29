@@ -13,12 +13,20 @@ export default defineConfig({
     workers: process.env.CI ? 1 : undefined,
 
     reporter: [
-        ['html'],
+        ['list'],
+        ['html', {
+            outputFolder: 'playwright-report',
+            open: 'never'
+        }],
         ['allure-playwright']
     ],
 
     use: {
+        // Preserve your existing baseURL and other settings
+
+        screenshot: 'only-on-failure',
         trace: 'on-first-retry',
+        video: 'retain-on-failure'
     },
     // projects: [
     // {
